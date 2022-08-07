@@ -12,7 +12,7 @@ Does this linear model predict mpg of MechaCar prototypes effectively? Why or wh
 
 ![Alt Text](https://github.com/Nehemiahmageto/MechaCar_Statistical_Analysis/blob/main/pictures/summary%20lm.JPG)
 
-###Summary
+### Summary
 
 According to our results, vehicle length and vehicle ground clearance (as well as intercept) are statistically unlikely to provide random amounts of variance to the linear model. In other words the vehicle length and vehicle ground clearance have a significant impact on quarter-mile race time.
 On the other hand , the vehicle weight, spoiler angle, and All Wheel Drive (AWD) have Pr(>|t|) values that indicate a random amount of variance with the dataset.
@@ -23,7 +23,7 @@ Therefore, we can state that there is sufficient evidence to reject our null hyp
 The resulting linear model has r-squared value of 0.7149, which translates to 71.49% of mpg directions are determined by the independent variables.
 This implies that the model is relatvely accurate in predicting mpg.
 
-##Summary Statistics on Suspension Coils
+## Summary Statistics on Suspension Coils
 
 Question
 
@@ -40,13 +40,14 @@ The third lot disproportionately affects the variance in the total level resulti
 
 ## T-Tests on Suspension Coils
 ![Alt Text](https://github.com/Nehemiahmageto/MechaCar_Statistical_Analysis/blob/main/pictures/t%20test.JPG)
+
 Testing the whole production gave a p-value of 0.06 which is higher than the assumed significance level of 0.05%.
 Therefore, we fail to reject the null hypothesis. (There is no statistical difference between the observed sample mean and its presumed population mean of 1500)
 Therefore, there is insufficient evidence to show that the mean is not equal to the presumed population mean.
 
 ![Alt Text](https://github.com/Nehemiahmageto/MechaCar_Statistical_Analysis/blob/main/pictures/t%20test%20lot%201.JPG)
 
-![Alt Text](https://github.com/Nehemiahmageto/MechaCar_Statistical_Analysis/blob/main/pictures/t%20test%20lot%20.JPG)
+![Alt Text](https://github.com/Nehemiahmageto/MechaCar_Statistical_Analysis/blob/main/pictures/t%20test%20lot%202.JPG)
 For lot 1 and 2, p-value is 1 and 0.6 respectively which are both greater than 0.05%.
 This leads to the same conclusion, we fail to reject the null hypothesis.
 
