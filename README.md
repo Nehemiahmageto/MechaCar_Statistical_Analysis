@@ -48,10 +48,12 @@ Therefore, there is insufficient evidence to show that the mean is not equal to 
 ![Alt Text](https://github.com/Nehemiahmageto/MechaCar_Statistical_Analysis/blob/main/pictures/t%20test%20lot%201.JPG)
 
 ![Alt Text](https://github.com/Nehemiahmageto/MechaCar_Statistical_Analysis/blob/main/pictures/t%20test%20lot%202.JPG)
+
 For lot 1 and 2, p-value is 1 and 0.6 respectively which are both greater than 0.05%.
 This leads to the same conclusion, we fail to reject the null hypothesis.
 
 ![Alt Text](https://github.com/Nehemiahmageto/MechaCar_Statistical_Analysis/blob/main/pictures/t%20test%20lot%203.JPG)
+
 However, for lot 3, the p value is 0.04 which is less than 0.05%.
 We reject the null, and as far as lot 3 is concerned there is significant evidence that the observed sample mean is different from the presumed population mean of 1500.
 Clearly lot 3 is an outlier and something different occured during production. The process undertaken in lot 3 should be reviewed and ascessed for any errors.
